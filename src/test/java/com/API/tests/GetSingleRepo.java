@@ -40,9 +40,7 @@ public class GetSingleRepo {
 	public void getUserRepo(String owner, String repo, String token) {
 		
 		String endpoint =  "repos" + "/" + owner + "/" + repo;
-		//LoginDataPOJO tokenData = new LoginDataPOJO();
-		//tokenData.setToken("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");
-		//String token = "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";
+
 		Response response = RestAssured
 			
 				.given()
@@ -124,7 +122,3 @@ public class GetSingleRepo {
 		
 		        
 }
-
-
-
-
