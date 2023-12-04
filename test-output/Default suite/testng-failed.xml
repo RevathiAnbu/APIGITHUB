@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testframework.gitHub.getAllRepositories">
+      <class name="com.API.tests.CreateRepo">
         <methods>
-          <include name="getAllRepositoriesTest"/>
+          <include name="createRepoTest"/>
         </methods>
-      </class> <!-- testframework.gitHub.getAllRepositories -->
+      </class> <!-- com.API.tests.CreateRepo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
